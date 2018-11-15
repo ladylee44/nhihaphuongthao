@@ -1,0 +1,65 @@
+body{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
+.name_section{
+	
+	padding:10px;
+	background-size: 1030px 550px;
+}
+.name{
+	font-size: 25px;
+}
+.name_text{
+    font-family: monospace;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 35px;
+}
+.tab{
+	background: #f2f2f2;
+    width: 49.93%;
+    font-size: 25px;
+    color: #333333;
+    height: 60px;
+    border: 0.1px solid #cccccc;
+    text-align: center;
+    line-height: 2.3;
+}
+#tab1{
+    float: left;
+}
+#tab2{
+    float: right;
+}
+.tab:hover{
+	cursor: pointer;
+}
+.all{
+    width: 1030px;
+}
+.middle{
+	padding: 120px 390px;
+    text-align: justify;
+}
+.user_data{
+color:#444444;
+font-weight: 700;
+font-size: 25px;
+}
+.chat_btn{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	top: 50px;
+	padding: 20px 80px;
+	background:  #4267b2;
+}
+.chat_btn:hover{
+	background:  #4267db;
+}
+p{
+	font-size: 20px;
+}

@@ -1,0 +1,290 @@
+html{
+	min-width: 1050px; 
+}
+body{
+	padding: 0;
+	margin:0;
+}
+.heading{
+	background-color: #3b5998; 
+	height: 82px;
+}
+.heading_txt{
+	font-family: calibri;
+	color: white;
+	font-weight: 900; 
+	position: relative;
+	left: 15px;
+	top: 18px;
+	font-size: 45px;
+	
+}
+.login{
+	position: relative;
+	right: 50px;
+	
+	width: 380px;
+	height: 60px;
+	color: white;
+}
+.td_top{
+	height: 25px;
+	font-size: 12px;
+	font-family: sans-serif;
+	position: relative;
+	top: 4px;
+}
+.login_box{
+	border: 0.1px solid #1d2a5b;
+	height: 19px;
+	width: 142px;
+}
+.login_button{
+	width: 48px;
+	height: 25px;
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	color: white;
+	font-weight: 600;
+	font-size: 11px;
+}
+.login_button:hover{
+	background-color: #365899;
+    border-color: #29487d;
+	cursor: pointer;
+}
+.forget{
+	color: #9cb4d8;
+	font-size: 12px;
+}
+.forget:hover{
+	text-decoration: underline;
+}
+a{  color: #365899;
+	/*  */
+	font-size: 13px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+#middle{
+	height: 597px;
+	background: linear-gradient(white, #D3D8E8);
+}
+#middle_left{
+	float: left;
+	width: 600px;
+	
+}
+.left_txt{
+	
+	margin-left: 13px;
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 460px;
+	font-family: sans-serif;
+	margin-bottom: 0;
+}
+#middle_right{
+	float: right;
+	width: 400px;
+	position: relative;
+	right: 50px;
+}
+.register_heading{
+	
+	width: 400px;
+	height: 118;
+	text-align: left;
+	font-family: sans-serif;
+	position: relative;
+	
+	top: 20px;
+}
+.create_txt{
+	font-size: 36px;
+	color: #333;
+	font-weight: bold;
+}
+.free_txt{
+	position: relative;
+	top: 10px;
+	font-size: 19px;
+	color: #333;
+}
+#signup{
+	width: 400px;
+	height: 403px;
+	text-align: left;
+	position: relative;
+	
+	top: 30px;
+}
+.name{
+	width: 172px;
+	color: #777;
+	
+	border-radius: 5px;
+	border: 1px solid #bdc7d8  ;
+	font-size:  18px;
+	padding : 8px 10px;
+	background-color: white;	
+}
+.email_pass{
+	color: #777;
+	width: 371px;
+	border-radius: 5px;
+	border: 1px solid #bdc7d8  ;
+	font-size:  18px;
+	padding : 8px 10px;
+	background-color: white;	
+}
+.bd_txt{
+	font-size: 18px;
+	color: black;
+	font-family: sans-serif;
+}
+.birth_d{
+	font-size: 13px;
+	padding: 5px;
+	height: 30px;
+	border: 1px solid #bdc7d8;
+	font-family: sans-serif;
+}
+.birth_m{
+	font-size: 13px;
+	padding: 5px;
+	height: 30px;
+	width: 73px;
+	border: 1px solid #bdc7d8;
+	font-family: sans-serif;
+}
+.birth_y{
+	font-size: 13px;
+	padding: 5px;
+	height: 30px;
+	width: 65px;
+	border: 1px solid #bdc7d8;
+	font-family: sans-serif;
+}
+.bd_help{
+	max-width: 150px;
+	font-size: 11px;
+	display: block;
+  margin-left: 10px;
+	position: relative;
+	bottom: 29px;
+	left: 204px;
+}
+
+label{
+	font-size: 18px;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+.gender{
+	border-radius: 4px;
+border-width: 1px;
+display: inline-block;
+padding: 5px 0 5px 4px;
+}
+.policy{
+	font-size: 11px;
+	font-family: sans-serif;
+	margin: 1em 0;
+	color: #666666;
+}
+.signup_btn{
+	background: linear-gradient(#67ae55, #578843);
+background-color: #69a74e;
+box-shadow: inset 0 1px 1px #a4e388;
+border-color: #3b6e22 #3b6e22 #2c5115;
+min-width: 194px;
+padding: 7px 20px;
+text-align: center;
+font-size: 19px;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+letter-spacing: 1px;
+position: relative;
+text-shadow: 0 1px 2px rgba(0,0,0,.5);
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.signup_btn:hover{
+	background: linear-gradient(#79bc64, #578843);
+}
+.last_txt{
+	border-top: 1px solid #dddfe2;
+color: #666;
+font-size: 13px;
+font-weight: bold;
+margin-top: 15px;
+font-family: sans-serif;
+}
+.footer_links{
+    font-size: 11px;
+	margin-top:  40px;
+	border-top: 1px solid #dddfe2;
+	padding-top: 10px;
+	margin-left: 3px;
+}
+#links td{
+	margin-left: 4px;
+}
+.copyright{
+	font-family: sans-serif;
+	font-size: 11px;
+	color: #90949c;
+	margin-left: 5px;
+	
+}
+#pass_info{
+	 background-color: #3b5998; 
+	
+	display: none;
+	width: 250px;
+	
+	z-index: 2;
+	position: relative;
+	float: right;
+	bottom: 85px;
+	right: 15px;
+	border-radius: 5px;
+	line-height: -5px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+	transition: 1s;
+}
+ul{
+	width: 200px;
+}
+ul li{
+	padding: 0;
+	position: relative;
+	right: 20px;
+}
+.i{
+	/* background-image: url(https://www.facebook.com/rsrc.php/v3/y7/r/LaoInooW6Pk.png); */
+	background-image: url(arrow.png);
+ background-repeat: no-repeat; 
+background-size: 10px;
+
+height: 16px;
+right: -100px;
+width: 100px;
+margin-top: 24px;
+top: 0%;
+overflow: ;
+position: absolute ;
+
+}

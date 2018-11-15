@@ -1,0 +1,97 @@
+body {
+				margin:0;
+				padding:0;
+				font-family: Sans-Serif;
+				line-height: 1.5em;
+			}
+			
+			header {
+				background: #F8F8FF;
+				height: 150px;
+			}
+			
+			header h1 {
+				margin: 0;
+				padding-top: 15px;
+			}
+			
+			main {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				float: left;
+				width: 100%;
+			}
+			
+			nav {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				float: left;
+				width: 230px;
+				margin-left: -230px;
+				background: #eee;
+			}
+			
+			footer {
+				clear: left;
+				width: 100%;
+				background: #F0F8FF;
+				text-align: center;
+				padding: 4px 0;
+			}
+	
+			#wrapper {
+				overflow: hidden;
+			}
+						
+			#content {
+				margin-right: 230px; /* Same as 'nav' width */
+			}
+			
+			.innertube {
+				margin: 15px; /* Padding for content */
+				margin-top: 0;
+			}
+		
+			p {
+				color: #555;
+			}
+	
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			nav ul a {
+				color: navy;
+				text-decoration: none;
+			}
+		
+			img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+	#ebay-embed * {vertical-align:middle}
+                            #ebay-embed table  {margin:0 auto !important;padding:0 !important; clear: both;}
+                            #ebay-embed table:nth-child(2) {}
+                            #ebay-embed table img {border:0 !important}
+                            #ebay-embed table tr td {margin:0 !important;padding:0 !important;vertical-align:middle}
+                            #ebay-embed table tr td[colspan="3"],
+                            #ebay-embed table tr td[colspan="5"] {line-height:0 !important}
+                            #ebay-embed table tr td a img {height:auto;margin:0 !important;padding:0 !important;display:inline-block;}
+                            #ebay-embed table tr td img {height:1px;margin:0 !important;padding:0 !important;display:inline-block;}
+                            #ebay-embed table tr  {margin:0 !important;padding:0 !important;}
+                            #ebay-embed table tr td table tr td[align="right"] br {display:none !important}
+                            #ebay-embed table tr td table tr td[align="right"] form {float:left !important}
+                            #ebay-embed table tr td table tr td[align="right"] form input[type="text"] {float:left !important;width:240px;margin:0 5px 0 0 !important;padding:9px !important}
+                            #ebay-embed table tr td table tr td[align="right"] form img {display:none !important}
+                            #ebay-embed table tr td table tr td[align="right"] form input[type="submit"] {float:left !important}

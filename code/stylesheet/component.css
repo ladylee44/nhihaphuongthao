@@ -1,0 +1,16 @@
+.inputfile + label {  
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-block; 
+    padding: 0.625rem 1.25rem;
+}
+.inputfile-1 + label {
+    color: #f1e5e6;
+    background-color: #d3394c;
+}
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+    background-color: #722040;
+}
